@@ -47,7 +47,7 @@ toggleStatus=false;
         console.log(jobStr);
         console.log(levelStr);
 
-        document.getElementById('here').innerHTML = `<br><hr><br><img src="./loading.gif"><br><b style="color:#FFC947;">Loading Please wait......</b>`;
+        document.getElementById('here').innerHTML = `<br><hr><br><img src="./loading.gif"/><br><b style="color:#FFC947;">Loading Please wait......</b>`;
         const find = jobStr;
         const level=levelStr;
         
@@ -78,6 +78,7 @@ toggleStatus=false;
             final.results[i].contents + "</div><hr>" + `<a class='apply-link' href=${final.results[i].refs.landing_page}><button class='apply-btn'>ApplyHere</button></a></div>`;
             }
             document.getElementById('here').innerHTML += "<br><br><hr><br><div id='prev-next-container'><button class='prev-next-btn' onclick='prev()'>prev</button><button class='prev-next-btn' onclick='next()'>next</button></div>";
+            document.getElementById('#back-to-top').style.display='block';
         }
         catch (e) {
             console.log(e);
