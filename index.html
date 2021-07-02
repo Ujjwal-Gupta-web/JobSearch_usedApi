@@ -1,0 +1,57 @@
+<!-- To find the loaction of jonb, howver it is not workibg in the case of Software engineer; -->
+<!-- <h5>Location: ${final.results[i].locations[0].name}</h5> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <!-- Selects type of role -->
+    <header id='header'>Job Finder</header>
+    <div onclick="toggle()" id='toggle'><h3>Filters (Category, Level)</h3></div>
+    <div id="category">
+        <h4>Category<span style="color:red;">*</span></h4>
+        <input type="checkbox" name="cat" class="cat" value="Software Engineer">Software Engineer
+        <input type="checkbox" name="cat" class="cat" value="Sales">Sales
+        <input type="checkbox" name="cat" class="cat" value="UX">UX
+        <input type="checkbox" name="cat" class="cat" value="Data Science">Data Science
+        <input type="checkbox" name="cat" class="cat" value="Editor">Editor
+        <input type="checkbox" name="cat" class="cat" value="Retail">Retail
+        <input type="checkbox" name="cat" class="cat" value="Recruiting">Recruiting
+        <br> 
+        <h4>Levels</h4>
+        <input type="checkbox" name="level" class="level" value="Entry Level">Entry Level
+        <input type="checkbox" name="level" class="level" value="Mid Level">Mid Level
+        <input type="checkbox" name="level" class="level" value="Senior Level">Senior Level
+        <input type="checkbox" name="level" class="level" value="management">management
+        <input type="checkbox" name="level" class="level" value="internship">internship
+        <br>
+        <br>
+        <button onclick="disp()" id='disp-btn'>DISPLAY JOBS</button>
+    </div>
+    
+    
+    <!-- displays the job roles related to the enterred role -->
+    <br><br>
+    <!-- here the required content get displayed -->
+    <div id='here'>
+        <br><hr><br>
+        Select the desired job
+    </div>
+
+    <a href="#header"><div id="back-to-top">
+        Top
+    </div></a>
+
+</body>
+<script src="./script.js"></script>
+
+</html>

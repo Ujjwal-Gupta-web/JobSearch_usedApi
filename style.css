@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(245, 255, 254);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background:grey;
+    width:100%;
+    margin-top:-10px;
+    padding:20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color:white;
+}
+#toggle{
+    cursor: pointer;
+    background-color: thistle;
+    margin:15px 0;
+    padding:6px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+#toggle:hover{
+    background-color: rgba(216, 191, 216, 0.719);
+}
+#category{
+text-align: center;
+display: none;
+}
+#disp-btn{
+    background-color: rgba(245, 222, 179, 0.753); 
+    outline:0;
+    border:none;
+    padding:5px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+#disp-btn:hover{
+    background-color: wheat; 
+    transform:scale(1.12);
+}
+.load{
+    box-shadow:3px 3px 50px rgb(206, 204, 204);
+    border-radius: 15px 15px 15px 15px;
+    padding:20px;
+    min-width: 86%;
+    margin:auto;
+    /* border-radius: 2px solid black; */
+ }
+.card{
+    box-shadow:3px 3px 50px rgb(206, 204, 204);
+    border-radius: 15px 15px 15px 15px;
+    padding:20px;
+    min-width: 86%;
+    margin:20px; 
+}
+.desc{
+    color:grey;
+}
+.apply-link{
+margin:auto 0;
+}
+.apply-btn{
+    background-color: teal;
+    color:white;
+    padding:5px;
+    cursor:pointer;
+    margin:10px;
+}
+#prev-next-container{
+    padding:2px;
+    text-align: center;
+}
+.prev-next-btn{
+    padding:5px;
+    margin:auto 10px;
+    background-color: grey;
+    color:white;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+.prev-next-btn:hover{
+    background-color: white;
+    color:grey;
+}
+
+#back-to-top{
+    display: none;
+    color:white;
+    position: fixed;
+    right:30px;
+    bottom:50px;
+    background-color:cadetblue;
+    padding:10px;
+    border-radius: 10px 10px 10px 10px;
+}
