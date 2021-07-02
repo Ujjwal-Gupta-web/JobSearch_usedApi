@@ -47,8 +47,7 @@ toggleStatus=false;
         console.log(jobStr);
         console.log(levelStr);
 
-        // document.getElementById('here').innerHTML = `<br><hr><br><b style="color:#FFC947;">Loading Please wait......</b>`;
-        document.getElementById('here').innerHTML = `<br><hr><br><img src="./loading.gif">`;
+        document.getElementById('here').innerHTML = `<br><hr><br><img src="./loading.gif"><br><b style="color:#FFC947;">Loading Please wait......</b>`;
         const find = jobStr;
         const level=levelStr;
         
