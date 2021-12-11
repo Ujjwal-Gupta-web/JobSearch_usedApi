@@ -1,4 +1,4 @@
-var toggleStatus=false;
+var toggleStatus=true;
 function toggle(){
     if(!toggleStatus)
 {document.getElementById('category').style.display='block';
