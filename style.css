@@ -32,7 +32,7 @@ header{
 }
 #category{
 text-align: center;
-display: none;
+display: block;
 }
 #disp-btn{
     background-color: rgba(245, 222, 179, 0.753); 
